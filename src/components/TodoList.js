@@ -43,8 +43,9 @@ function TodoList() {
 
   return (
     <div>
-      <h1>Plan for today</h1>
+      <h2>Plan for today</h2>
       <TodoForm onSubmit={addTodo} />
+      <div className="divider"></div>
       <Todo
         todos={todos}
         completeTodo={completeTodo}
